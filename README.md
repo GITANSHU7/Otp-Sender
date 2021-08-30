@@ -1,10 +1,6 @@
 # Send SMS with React and Twilio
 
-This is an example of sending SMS using React and Twilio. It consists of a `SMSForm` component that communicates with a server endpoint to [send SMS messages via the Twilio REST API](https://www.twilio.com/docs/sms/send-messages).
-
-To see how to build the project yourself, check out the blog post [How to send an SMS from React with Twilio](https://www.twilio.com/blog/send-an-sms-react-twilio).
-
-This project was created from the [react-express-starter project](https://github.com/philnash/react-express-starter) and includes a React front end and an Express server.
+In this project Twilio is used to send message to a mobile number and for the frontend part Reactjs is used. You need to enter the contact number of the person and message after writting the message click on **SEND** button. 
 
 ## Running the project
 
@@ -13,17 +9,15 @@ To run the project you will need a Twilio account and a Twilio phone number that
 Then, clone the project, change into the directory and install the dependencies.
 
 ```bash
-git clone https://github.com/philnash/send-sms-react-twilio.git
-cd send-sms-react-twilio
+git clone https://github.com/GITANSHU7/Otp-Sender.git
 npm install
 ```
 
-Copy the `.env.example` file to `.env` and fill in your Twilio credentials and phone number.
-
+Put your Twilio credentials and phone number in  **.env** file
 Start the application on its own with the command:
 
 ```bash
 npm run dev
 ```
 
-Open the app at [localhost:3000](http://localhost:3000). You can now use the form to send SMS messages via your Twilio number.
+Open the app at [localhost:3000](http://localhost:3000). 
